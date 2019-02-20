@@ -1,0 +1,43 @@
+package basics.concept;
+
+public class Exceptionhandling {
+	int a =10;
+	public static void main(String[] args) {
+		
+		Exceptionhandling obj =new  Exceptionhandling();
+		obj.sum();
+		
+		//Uncaught exception
+		//int i=9/0;
+		//System.out.println(i);
+		
+		//Caught exception
+		//Thread.sleep(2000);
+		
+	//	Exceptionhandling obj = new Exceptionhandling();
+		//obj =null;// we assigned null to obj that is to the reference .
+       // System.out.println(obj.a);// null pointer exception
+		
+		
+		//Types of Eception 
+		//Try catch block:
+		// It is used to cath the exception and to do reporting also
+		//try{
+		//int i = 9/0;//this code will throw an exception/
+		
+		//}catch(ArithmeticException e) {
+		
+}
+		//System.out.println("ABC");
+		//System.out.println("Hey this is try catch block");
+		
+		public void sum() throws ArithmeticException {
+			div();
+		}
+
+		public void div()throws ArithmeticException {
+			int i=9/0;
+			
+		}
+}
+	

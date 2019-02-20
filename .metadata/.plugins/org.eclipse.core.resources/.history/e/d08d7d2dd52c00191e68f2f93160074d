@@ -1,0 +1,17 @@
+package basics.concept;
+
+public class CallByValueAndReference {
+
+	public static void main(String[] args) {
+		CallByValueAndReference obj = new CallByValueAndReference();
+		obj.
+		
+
+	}
+
+	public int testSores(int a,int b){
+		int c = a+b;
+		return c;
+		
+	}
+}

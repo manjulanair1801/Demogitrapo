@@ -1,0 +1,10 @@
+package Assertion.script;
+
+public class Assertionscripts {
+	
+	
+	@Test
+	public void test()
+	{
+
+}

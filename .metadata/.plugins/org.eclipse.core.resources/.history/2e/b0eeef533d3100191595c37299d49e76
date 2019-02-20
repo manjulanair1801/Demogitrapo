@@ -1,0 +1,32 @@
+package asserting.hard.soft;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import junit.framework.Assert;
+
+public class asserttestcases {
+
+	SoftAssert softassert =new SoftAssert();
+	
+	
+	@Test
+	public void test1() {
+		System.out.println("Open Browser");
+		softassert.assertEquals(12, 13);//Hard Assert- After this line nothing will be executed
+		
+		System.out.println("Enter username");
+		System.out.println("Enter Password");
+		softassert.assertEquals("Manju","meenu");
+		
+		System.out.println("Click on sign in button");
+		System.out.println("Validate Home Page");
+		softassert.assertEquals(12, 18);
+		softassert.assertAll();
+
+	}
+	
+	
+	
+	
+}

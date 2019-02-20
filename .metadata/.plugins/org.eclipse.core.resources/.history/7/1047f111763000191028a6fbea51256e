@@ -1,0 +1,17 @@
+package constructor.sup.concept;
+
+public class Parent {
+
+	public Parent() {
+		System.out.println("Parent class.....");
+	}
+	public Parent(int x) {
+		System.out.println("The value of i is "+ x);
+	
+	}
+	public Parent(int x, int y) {
+		System.out.println("The value of x is "+ x);
+		System.out.println("The value of y is "+ y);
+		
+	}
+}

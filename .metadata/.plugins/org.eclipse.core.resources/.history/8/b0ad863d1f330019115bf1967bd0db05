@@ -1,0 +1,17 @@
+package collections.list.concept;
+
+import java.util.ArrayList;
+
+public class ListArrayList {
+
+	public static void main(String[] args) {
+		//Dynamic Array- Arraylist
+		ArrayList ar = new ArrayList();
+		ar.add(10);
+		ar.add(20);
+		ar.add(30);
+		
+		System.out.println(ar.size());
+	}
+
+}

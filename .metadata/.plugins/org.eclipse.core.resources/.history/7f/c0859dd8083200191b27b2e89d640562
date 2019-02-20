@@ -1,0 +1,12 @@
+<?xml version="1.0"encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite foe Yahoo">
+	<test name="Testing Parameterization for Yahoo">
+	<parameter name="url" value="https://login.yahoo.com/"/>
+	<parameter name="emailId" value="mandynair@yahoo.com"/>
+	<parameter name="password" value="sankatmochan40"/>
+		<classes>
+			<class name="com.parameters.edu.ParameterTestClass" />
+		</classes>
+	</test>
+</suite>

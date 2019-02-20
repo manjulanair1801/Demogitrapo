@@ -1,0 +1,14 @@
+package String.concept;
+
+public class StringBufferconcept {
+	public static void main(String[] args) {
+		
+		StringBuffer sBuf = new StringBuffer("Selenium");
+		
+
+
+		
+	}
+	
+
+}

@@ -1,0 +1,25 @@
+package asserting.hard.soft;
+
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+
+public class asserttestcases {
+
+	
+	
+	@Test
+	public void test1() {
+		System.out.println("Open Browser");
+		System.out.println("Enter username");
+		Assert.assertEquals(12, 13);
+		System.out.println("Enter Password");
+		System.out.println("Click on sign in button");
+		System.out.println("Validate Home Page");
+
+	}
+	
+	
+	
+	
+}

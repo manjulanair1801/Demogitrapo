@@ -1,0 +1,5 @@
+package test.pac;
+
+public class ParentClass {
+
+}

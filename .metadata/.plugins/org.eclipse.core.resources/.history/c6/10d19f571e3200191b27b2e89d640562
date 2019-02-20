@@ -1,0 +1,5 @@
+package groups.testng.edu;
+
+public class TestBelongsToMultipleGroups {
+
+}

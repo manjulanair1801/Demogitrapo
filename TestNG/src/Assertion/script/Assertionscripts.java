@@ -1,0 +1,37 @@
+package Assertion.script;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class Assertionscripts {
+	
+	
+	@Test
+	public void test()
+
+	{
+		System.out.println("from herer the Assertion starts");
+		Assert.assertEquals(12, 14,"Drop down does not match");
+		System.out.println("test case is completed");
+}
+
+	@Test
+	public void test1()
+	{
+		System.out.println("from herer the Assertion starts");
+		Assert.assertEquals("Hello", "Hello","words does not match");
+		System.out.println("Assertipn completed");
+}
+	
+	@Test
+	public void test2() {
+		String s ="Mukesh";
+		Assert.assertTrue(s.contains("Mukesh"),"the strings do not match");
+	}
+	
+	@Test
+	public void test3() {
+		String s ="Mukesh";
+		Assert.assertTrue(s.contains("Suresh"),"the strings do not match");
+	}
+}

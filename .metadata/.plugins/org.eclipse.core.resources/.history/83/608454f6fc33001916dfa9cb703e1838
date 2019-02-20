@@ -1,0 +1,15 @@
+package basics.concept;
+
+public class CallByValue2 {
+
+	public static void main(String[] args) {
+		int x=10;
+		int y = 20;
+		System.out.println("sum =" +sum(x,y));
+	}
+		
+	public static int sum(int a, int b) {
+		int c=a+b;
+		return c;
+	}
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\manjula\Desktop\Training docs\PracticeJavaPrograms"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\PracticeJavaPrograms\src"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\LearnAutomation2"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\TestNg"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\mavendemo"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\Junit"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\methods"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\cucumberjava project"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\Cucumber_selenium"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\Mavenproject"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\AutomationPractice"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\seleniumcucumberproject"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\Seleniun"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\selenium2"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\LearnAutomation"/>
+		<item value="C:\Users\manjula\Desktop\Training docs\AutomationWithJava"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\manjula\Desktop\Training docs\PracticeJavaPrograms"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1549385109070" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="579" key="DIALOG_HEIGHT"/>
+		<item value="250" key="DIALOG_X_ORIGIN"/>
+		<item value="-2" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

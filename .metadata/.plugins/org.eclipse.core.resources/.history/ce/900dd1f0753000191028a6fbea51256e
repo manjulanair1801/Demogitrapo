@@ -1,0 +1,25 @@
+package constructor.sup.concept;
+
+public class Child extends Parent{
+ public Child() {
+	 super();
+	 
+	 }
+ 
+ public Child(int i) {
+	 super(i);
+	 System.out.println("child  class2...");
+ }
+ 
+ public Child(int x, int y) {
+	 super(x,y);
+	 System.out.println("child  class 3...");
+ }
+ public static void main(String[] args) {
+	Child obj= new Child();
+	Child obj1= new Child(10);
+	Child obj2 = new Child(5,2);
+	
+	
+}
+}

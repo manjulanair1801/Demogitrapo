@@ -1,0 +1,30 @@
+package parallel.execution;
+
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class parallelTestDemo {
+	
+	@BeforeMethod
+	public void beforeMethod() {
+		System.out.println("This is beforemethod-- class1");
+		
+	}
+	
+	@Test
+	public void test1() {
+		System.out.println("Im in Test 1-class1");
+	}
+
+	
+	@Test
+	public void test2() {
+		System.out.println("Im in Test 2-class1");
+	}
+	@AfterMethod
+	public void AfterMethod() {
+		System.out.println("This is aftermethod--class1");
+		
+	}
+}

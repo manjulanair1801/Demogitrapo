@@ -1,0 +1,21 @@
+package basics.concept;
+
+public class Callbyreference2 {
+
+	public static void main(String[] args) {
+				Integer x=10;
+				Integer y = 20;
+				System.out.println("sum =" +sum(x,y));
+				System.out.println(x);
+				System.out.println(y);
+			}
+				
+			public static int sum(Integer a,Integer b) {
+				a= 5;
+				b= 10;
+				int c=a+b;
+				return c;
+			}
+		
+	}
+

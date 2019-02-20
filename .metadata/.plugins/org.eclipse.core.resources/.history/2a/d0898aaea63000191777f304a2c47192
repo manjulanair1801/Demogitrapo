@@ -1,0 +1,15 @@
+package com.testpackage;
+
+import org.testng.annotations.Test;
+
+public class TestNgFeatures {
+	@Test()
+	public void LoginTest() {
+		System.out.println("Login Test");
+	}
+	
+	@Test(dependsOnMethods = "Login Test")
+	public void HomePageTest() {
+		System.out.println("Homepage Test");
+	}
+}

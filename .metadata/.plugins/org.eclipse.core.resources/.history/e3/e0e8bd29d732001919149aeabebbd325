@@ -1,0 +1,22 @@
+package String.concept;
+
+public class StringImmutable {
+
+	public static void main(String[] args) {
+	
+		
+		String s1 = "JAVA";
+		String s2 = "JAVA";
+		String s3 = "SELENIUM";
+		
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		
+		String s4 =s1.concat("Concept");
+		System.out.println(s1);// it will not make any changes in the excisting string s1 
+		System.out.println(s4);//it will create a new object , and the value will be stored in s4
+
+	}
+
+}

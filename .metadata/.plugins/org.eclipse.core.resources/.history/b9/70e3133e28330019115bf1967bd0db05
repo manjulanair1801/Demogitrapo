@@ -1,0 +1,72 @@
+package collections.list.concept;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ListArrayList {
+
+	public static void main(String[] args) {
+		//Dynamic Array- Arraylist
+		ArrayList ar = new ArrayList();
+		ar.add(10);//0
+		ar.add(20);//1
+		ar.add(30);//2
+		ar.add(40);//3
+		ar.add(50);//4
+		ar.add(50);//5
+		ar.add(40);//6
+		
+		
+		System.out.println(ar.size());
+		System.out.println(ar.get(2));
+		System.out.println("******************");
+		//for loop for printing all the values of arraylist
+		
+		for(int i=0;i<ar.size();i++) {
+			System.out.println(ar.get(i));
+		}
+		
+		// generic /non generic 
+		ArrayList<Integer> ar1 = new ArrayList<Integer>();
+		ar1.add(100);
+		ar1.add(200);
+		
+		//String 
+		ArrayList<String> ar2 = new ArrayList<String>();
+		ar2.add("Automatiuon");
+		ar2.add("testing");
+		
+		// We are creting Employee class object 
+		Employee e1 = new Employee("Raj",42,"Sales");
+		Employee e2 = new Employee("Sudha",36,"QA");
+		Employee e3 = new Employee("Kumar",42,"QA");
+		
+		
+		
+		//We can create arraylist with class 
+		
+		ArrayList<Employee> arr	= new ArrayList<Employee>();
+		arr.add(e1);
+		arr.add(e2);
+		arr.add(e3);
+		
+		for(int i=0;i<arr.size();i++) {
+			System.out.println(arr.get(i).name);
+			System.out.println(arr.get(i).age);
+			System.out.println(arr.get(i).dept);
+			
+		}
+		
+		// Iterator to traverse the values
+		Iterator<Employee> it = arr.iterator();
+		while(it.hasNext()) {
+			Employee emp = it.next();
+			System.out.println("******************************");
+			System.out.println(emp.name);
+			System.out.println(emp.age);
+			System.out.println(emp.dept);
+		}
+	
+	}
+
+}

@@ -1,0 +1,5 @@
+package basics.concept;
+
+public class Rectangle2 {
+int length ;
+}

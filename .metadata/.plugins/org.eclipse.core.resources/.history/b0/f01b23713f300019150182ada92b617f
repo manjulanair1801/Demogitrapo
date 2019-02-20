@@ -1,0 +1,14 @@
+package basics.concept;
+
+public class ConstructorConceptwithThis {
+
+	public static void main(String[] args) {
+		ConstructorConceptwithThis obj = new ConstructorConceptwithThis("Tom",30);
+	
+
+}
+public ConstructorConceptwithThis(String name, int age){
+	
+}
+
+}

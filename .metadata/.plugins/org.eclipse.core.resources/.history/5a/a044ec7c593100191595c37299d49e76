@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82173" started-at="2019-02-15T17:36:25Z" finished-at="2019-02-15T17:37:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82173" started-at="2019-02-15T17:36:25Z" finished-at="2019-02-15T17:37:48Z">
+      <class name="com.parameters.edu.ParameterTestClass">
+        <test-method status="PASS" signature="yahoologintest()[pri:0, instance:com.parameters.edu.ParameterTestClass@7c16905e]" name="yahoologintest" duration-ms="82115" started-at="2019-02-15T17:36:25Z" finished-at="2019-02-15T17:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahoologintest -->
+      </class> <!-- com.parameters.edu.ParameterTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

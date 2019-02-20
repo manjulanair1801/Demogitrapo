@@ -1,0 +1,27 @@
+package basics.concept;
+
+public class ConstructorConcept {
+
+	
+	public ConstructorConcept() {
+	System.out.println("default constructor");
+	}
+	public ConstructorConcept(int i) {
+		System.out.println("single parameter constructor");
+		System.out.println("the value if i is "+ i);
+	}
+	public ConstructorConcept(int i, int j) {
+  		System.out.println("single parameter constructor");
+  		System.out.println("the value if i is "+ i);
+  		System.out.println("The value of j is " +j);
+}
+	public static void main(String[] args) {
+		ConstructorConcept obj = new ConstructorConcept();
+		ConstructorConcept obj1 = new ConstructorConcept(5);
+		ConstructorConcept obj2 = new ConstructorConcept(5,2);
+		
+
+		
+	}
+
+}

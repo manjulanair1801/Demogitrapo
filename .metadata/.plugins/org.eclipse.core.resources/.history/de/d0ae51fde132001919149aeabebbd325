@@ -1,0 +1,25 @@
+package basics.concept;
+
+public class StaticInstanceLocalVar {
+	
+	static String name ="Manjula";
+	int age = 40;
+	
+	 
+
+	public static void main(String[] args) {
+		
+      System.out.println(name);// Static variable can be called directly without any object 
+      
+      StaticInstanceLocalVar obj1 = new  StaticInstanceLocalVar();// Instance variable has to instantiated
+      int a =obj1.age;
+      System.out.println(a);
+     
+	}
+
+	public void add() {
+		String Emp_Add ="Willow Street Alameda ";
+		System.out.println(Emp_Add);
+		
+	}
+}

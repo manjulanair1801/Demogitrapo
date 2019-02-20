@@ -1,0 +1,15 @@
+package Assertion.script;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class Assertionscripts {
+	
+	
+	@Test
+	public void test()
+	{
+Assert.assertEquals(12, 14,"Drop down does not match");
+}
+
+}
