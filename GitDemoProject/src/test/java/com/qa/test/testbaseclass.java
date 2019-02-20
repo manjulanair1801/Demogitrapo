@@ -1,7 +1,10 @@
 package com.qa.test;
 
+import org.testng.annotations.Test;
+
 public class testbaseclass {
-public void test() {
+@Test
+	public void test() {
 	System.out.println("test base ");
 }
 }
