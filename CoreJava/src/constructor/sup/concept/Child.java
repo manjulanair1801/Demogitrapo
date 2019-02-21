@@ -16,9 +16,10 @@ public class Child extends Parent{
 	 
  }
  public static void main(String[] args) {
-	new Child(); // we use new keyword to pass vallues in the constructor arguments.
-	new Child(10);
-	new Child(5,2);
+
+	Child n1 =new Child(); // we use new keyword to pass vallues in the constructor arguments.
+	Child n2 = new Child(10);
+	Child n3 = new Child(5,2);
 	
 	
 }
