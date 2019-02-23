@@ -1,4 +1,4 @@
-package basics.concept;
+package edu.qa.practice;
 
 public class WrapperClassConcept {
 

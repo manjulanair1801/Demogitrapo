@@ -18,8 +18,6 @@ public class ArtSchool {
 		 this.Stu_id =id;
 	 }
 	 
-	
-
 	  public static void main(String[] args) {
 	    ArtSchool Art1  = new ArtSchool();  //constructor is called when the instance of the object is created 
 	    ArtSchool Art2 = new ArtSchool("Shanks");      
@@ -27,9 +25,8 @@ public class ArtSchool {
 	   Art1.Student_name = "Tom";
 	   
 	  
-	   
 	   System.out.println(Art1.Student_name);
-	   System.out.println(Art2.Student_name);
+	  System.out.println(Art2.Student_name);
 	   System.out.println(Art3.Student_name);
 	   System.out.println(Art3.Stu_id);
 	  

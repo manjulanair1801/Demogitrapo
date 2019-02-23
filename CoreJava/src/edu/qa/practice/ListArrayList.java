@@ -1,4 +1,4 @@
-package collections.list.concept;
+package edu.qa.practice;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -38,7 +38,7 @@ public class ListArrayList {
 		// We are creting Employee class object 
 		Employee e1 = new Employee("Raj",42,"Sales");
 		Employee e2 = new Employee("Sudha",36,"QA");
-		Employee e3 = new Employee("Kumar",42,"QA");
+		Employee e3 = new Employee("Kunal",42,"QA");
 		
 		
 		
@@ -58,7 +58,7 @@ public class ListArrayList {
 		}
 		
 		// Iterator to traverse the values
-		Iterator<Employee> it = arr.iterator();
+		Iterator<Employee> it = arr.iterator();// declaration
 		while(it.hasNext()) {
 			Employee emp = it.next();
 			System.out.println("******************************");
