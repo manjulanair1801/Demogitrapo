@@ -1,131 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="17479" started-at="2019-02-16T21:21:16Z" finished-at="2019-02-16T21:21:34Z">
+  <suite name="Default suite" duration-ms="196" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="17479" started-at="2019-02-16T21:21:16Z" finished-at="2019-02-16T21:21:34Z">
-      <class name="parallel.execution.parallelTestDemo">
-        <test-method status="FAIL" signature="test2()[pri:0, instance:parallel.execution.parallelTestDemo@7c16905e]" name="test2" duration-ms="17416" started-at="2019-02-16T21:21:16Z" finished-at="2019-02-16T21:21:34Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'MANJULA-VAIO', ip: '169.254.100.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\manjula\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 615a4f72997835e9d8a03868386ae321]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'MANJULA-VAIO', ip: '169.254.100.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\manjula\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 615a4f72997835e9d8a03868386ae321
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)
-at parallel.execution.parallelTestDemo.test2(parallelTestDemo.java:30)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+    <test name="Default test" duration-ms="196" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
+      <class name="com.testpackage.TestNGDependsOnMethodsExample">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="beforeMethod" is-config="true" duration-ms="17" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="FAIL" signature="test1()[pri:0, instance:parallel.execution.parallelTestDemo@7c16905e]" name="test1" duration-ms="16355" started-at="2019-02-16T21:21:16Z" finished-at="2019-02-16T21:21:33Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'MANJULA-VAIO', ip: '169.254.100.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\manjula\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51176}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 14a5ff573fbb7af3630a7eba70f0cd6d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'MANJULA-VAIO', ip: '169.254.100.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\manjula\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51176}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 14a5ff573fbb7af3630a7eba70f0cd6d
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)
-at parallel.execution.parallelTestDemo.test1(parallelTestDemo.java:19)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="testAdd" duration-ms="14" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:parallel.execution.parallelTestDemo@7c16905e]" name="test3" duration-ms="30" started-at="2019-02-16T21:21:16Z" finished-at="2019-02-16T21:21:16Z">
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-      </class> <!-- parallel.execution.parallelTestDemo -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDivide()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="testDivide" duration-ms="5" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivide -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testProcessEvenNumbers()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="testProcessEvenNumbers" duration-ms="4" started-at="2019-02-24T02:50:01Z" depends-on-methods="com.testpackage.TestNGDependsOnMethodsExample.testDivide, com.testpackage.TestNGDependsOnMethodsExample.testAdd" finished-at="2019-02-24T02:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcessEvenNumbers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testProcessRealNumbers()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="testProcessRealNumbers" duration-ms="8" started-at="2019-02-24T02:50:01Z" depends-on-methods="com.testpackage.TestNGDependsOnMethodsExample.testDivide, com.testpackage.TestNGDependsOnMethodsExample.testAdd" finished-at="2019-02-24T02:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcessRealNumbers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testpackage.TestNGDependsOnMethodsExample@5d5eef3d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-24T02:50:01Z" finished-at="2019-02-24T02:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testpackage.TestNGDependsOnMethodsExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

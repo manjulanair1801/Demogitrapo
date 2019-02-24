@@ -27,6 +27,7 @@ public class TestNGDependsOnMethodsExample {
 	    @Test
 	    public void testDivide() {
 	        System.out.println("testDivide()");
+	        System.out.println("divide ");
 	       // Calculator calculator = new Calculator();
 	        //Assert.assertEquals(calculator.divide(16, 2), 16);
 	    }
